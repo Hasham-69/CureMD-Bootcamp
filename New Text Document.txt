@@ -1,0 +1,16 @@
+/ Count number of different letters that appear in both uppercase and lowercase where all lowercase occurences of the given letter appear before any uppercase occurence. Ignore that letter comletely if its lowercase comes after uppercase
+        //Example for letters ="aaAbcCABBc",the answer is 2.The condition is met for letters 'a' and 'b' but not for 'c'.
+        // Write c# function that given string letters, returns the number of different letters fulfilling the condition above.
+        // Example: letters = "xyzXYZabcABC;function should return 6
+        // Example: letters = "ABCabcAefG;function should return 0
+
+// You are given string S containing lowercase English letters.Your task is to calculate the min number of letters that need to be removed in order to make it possible to build a palindrome from the remaining letters.When building palindrome,you can rearrange the letters in any way. Write c# function that given a string of length N, returns the min number of letters that need to be removed.
+// Example: S="ervervige";function should return 2 .After removing letter 'g' and one 'e', we may create a word "reviver",which is a palindrome
+//  Example: S="aaabab";function should return 0.W may create a word "aabbaa" which is palindrome
+// Example: S="x"; function should return 0,String 'x' is palindrome itself so we dont have to delete any letter
+
+
+   // A long 10day training is starting.Ther are n employees(0 to N-1).E[K] is a string having digits(0-9)representing the days the K-th employee is able to attend the training.Starting date of training is not decided yet.Wht is max number of employees that can attend during atleat one of the two scheduled days?
+    // Write c# function that given array E consisting of N strings denoting available days for each employee, will return the max number of employees that can attend during atleast one of two scheduled days.
+    //Exapmle: E=["039","4","14","32","",34,"7"];answer is 5.By running training on days 3 and 4, This way employee number 0,1,2,3,4 will attend the training.
+    //Exapmle: E=["5421","245","1452","0345",53,"354"];answer is 6. Achieved by just running training on day 5 when every employee is available
